@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+section {
+    display: flex;
+    flex-direction: wrap;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+
+section h1 {
+    color: orangered;
+    font-size: 3em;
+}
+
+section form {
+    padding: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    border-radius: 20px;
+    border: 2px solid orangered;
+}
+
+section form label {
+    width: 100%;
+    padding: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+section form input {
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.8em;
+    border-radius: 9px;
+    border: none;
+    outline-color: orangered;
+    background-color: white;
+}
+
+#btnInicio {
+    margin-top: 1.5em;
+    background-color: orangered;
+    color: white;
+    border-radius: 8px;
+}
+
+#btnInicio:hover {
+    background-color: darkorange;
+}
+
+section p {
+    margin-top: 1em;
+}
+
+section p a {
+    color: orangered;
+    text-decoration: none;
+}
+
+section p a:hover {
+    text-decoration: underline;
+}

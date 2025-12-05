@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link
+        href="https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=Figtree:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcula tu IMC</title>
+    <link rel="stylesheet" href="css/imc.css">
+</head>
+<body>
+     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="menu container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <img id="imgLogo" src="images/logo.png" alt="logo" class="logo me-3">
+                <a class="navbar-brand" href="index(inicioSesion) .html"> <strong>FITNASE</strong></a>
+                <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
+                    <ul class="navbar-nav fs-0 mb-3  mb-lg-0">
+                        <li class="nav-item ms-5"><a class="nav-link" href="index(inicioSesion) .html">Inicio</a></li>
+                        <li class="nav-item ms-5"><a class="nav-link" href="index(inicioSesion) .html">Catálogo</a></li>
+                        <li class="nav-item ms-5"> <a class="nav-link" href="imc.html">Calcula tu IMC</a></li>
+
+                    </ul>
+                    <div class="botones">
+                        <a id="boton"
+                            class="bi bi-cart-dash-fill fs-0 text-light me-2 ms-5 btn btn-warning position-relative"
+                            href="carrito.html">
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                1+
+                                <span class="visually-hidden"></span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="usuario">
+                        <h5 id="usr">Bienvenido</h5>
+                    </div>
+                     <i class="usr bi bi-person-fill fs-0"></i>
+                </div>
+            </div>
+        </nav>
+    <header>
+    <h1>Calculadora de IMC</h1>
+    <p>Consulta tu Índice de Masa Corporal</p>
+</header>
+    <main class="container">
+        <section class="formulario">
+            <form id="forma">
+                <label for="peso"> Ingresa tu peso actual:</label>
+                <input type="number" id="peso" placeholder="Ejem:50" required>
+                <label for="peso">Ingresa tu estatura:</label>
+                <input type="number" id="altura" placeholder="Ejemplo 160" required>
+                <div class="boton">
+                <input class="btn" type="submit" value="Calcular">
+                </div>
+            </form>
+        </section>
+         <section class="resultado">
+            <p id="resumen"></p>
+        </section>
+    </main>
+
+    <script src="JS/imc.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,190 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: #000000;
+    color: #ffffff;
+}
+
+header {
+    background: linear-gradient(130deg, black, rgb(69, 18, 0));
+    color: white;
+    text-align: center;
+    padding: 1.5em;
+}
+
+#boton {
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    border-color: orangered;
+}
+
+#boton:hover {
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    border-color: orange;
+}
+
+#imgLogo {
+    border-radius: 50%;
+    width: 70px;
+    height: 50px;
+}
+
+.nav-item {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.botones {
+    padding-left: 120px;
+}
+
+.navbar-nav {
+    padding-left: 300px;
+}
+
+.usuario {
+    padding-left: 80px;
+}
+
+.usr {
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    justify-content: center;
+    background-color: orangered;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em;
+    flex-wrap: wrap;
+}
+
+section {
+    background: linear-gradient(130deg, black, rgb(134, 36, 0));
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 40%;
+    min-width: 300px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 45%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.btn {
+    background-color: #d43407;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    width: 35%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #000103;
+}
+
+#resumen {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 23px;
+    margin-bottom: 3em;
+}
+
+@media(max-width:550px) {
+
+    .container {
+        margin: 1em o.5em;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section {
+        margin-bottom: 20px;
+        width: 95%;
+        min-width: unset;
+    }
+
+    input {
+        width: 90%;
+        padding: 10px 5%;
+        box-sizing: border-box;
+    }
+
+    .btn {
+        width: 80%;
+        padding: 15px;
+    }
+
+    header {
+        padding: 1em;
+    }
+
+    .contact {
+        text-align: center;
+        font-size: 0.8em;
+        justify-content: center;
+    }
+
+    .navbar {
+        margin-left: 0px;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .usuario {
+        padding-left: 20px;
+        font-size: 0.8em;
+
+    }
+
+    .usr {
+        font-size: 0.8em;
+        justify-content: center;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .navbar-nav {
+        padding-left: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #boton {
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+        margin-bottom: 12px;
+
+    }
+
+    .botones {
+        font-size: 0.8em;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-right: 100px;
+        margin-bottom: 5px;
+    }
+}

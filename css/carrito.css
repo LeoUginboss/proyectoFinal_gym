@@ -1,0 +1,221 @@
+* {
+    font-family: "Figtree", sans-serif;
+}
+
+
+.swiper-button-prev::after {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.navbar {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 250px;
+    display: flex;
+    justify-content: right;
+}
+
+.col-md {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: 130px;
+}
+
+.usuario {
+    padding-left: 80px;
+}
+
+.usr {
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    justify-content: center;
+    background-color: orangered;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 10px;
+    height: 40px;
+}
+
+.card {
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#boton {
+    background-color: orangered;
+    border-radius: 5px;
+    border-color: orangered;
+    color: orangered;
+}
+
+#boton:hover {
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+}
+
+
+#imgLogo {
+    border-radius: 50%;
+    width: 70px;
+    height: 50px;
+}
+
+.menu {
+    background: none;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-item {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card {
+    
+    width: 400px;
+    height: 250px;
+}
+
+.card-body {
+    
+    background-position: center;
+}
+
+header {
+    background-image: url('../images/fondo3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: white;
+
+}
+
+.text-first {
+    font-size: 2em;
+    font-weight: bolder;
+    margin-top: 20px;
+    color: orangered;
+}
+
+
+.services {
+    background-color: rgb(11, 11, 11);
+    color: white;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.text-ini {
+    font-size: 1em;
+    color: orangered;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.text-subtitle {
+    font-size: 3em;
+    text-align: left;
+    font-weight: bolder;
+    margin-left: 70px;
+}
+
+.column {
+    margin: 20px;
+    vertical-align: right;
+}
+
+.icono {
+
+    color: rgba(227, 69, 21, 0.902);
+    border-radius: 5%;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    line-height: 80px;
+    margin-bottom: 10px;
+}
+
+
+.text-one {
+    color: orangered;
+    font-size: 1em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.text-two {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+
+
+.border {
+    border: 2px solid rgb(236, 95, 35);
+    border-radius: 10px;
+    height: 380px;
+    width: auto;
+    padding: 5px;
+    margin: 15px;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+.text {
+    font-size: 2em;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: orangered;
+}
+
+
+footer ul {
+    display: flex;
+    justify-content: center;
+
+}
+.contact {
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+footer ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+
+/*Diseño adaptativo o responsivo*/
+@media (max-width:550px) {
+    #img_car{
+        width: 90px;
+        height: 100px;
+    }
+    .col-md {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+   
+}

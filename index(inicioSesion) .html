@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link
+        href="https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=Figtree:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=distance" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITNASE</title>
+</head>
+
+<body>
+    <!--Menú navegación-->
+    <header class="inicio">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="menu container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <img id="imgLogo" src="images/logo.png" alt="logo" class="logo me-3">
+                <a class="navbar-brand" href="index(inicioSesion) .html"> <strong>FITNASE</strong></a>
+                <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
+                    <ul class="navbar-nav fs-0 mb-3  mb-lg-0">
+                        <li class="nav-item ms-5"><a class="nav-link" href="index(inicioSesion) .html">Inicio</a></li>
+                        <li class="nav-item ms-5"><a class="nav-link" href="#catalogo">Catálogo</a></li>
+                        <li class="nav-item ms-5"> <a class="nav-link" href="imc.html">Calcula tu IMC</a></li>
+                    </ul>
+                    <div class="botones">
+                        <a id="boton"
+                            class="bi bi-cart-dash-fill fs-0 text-light me-2 ms-5 btn btn-warning position-relative"
+                            href="carrito.html">
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                <span class="visually-hidden"></span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="usuario">
+                        <h5 id="usr">Bienvenido</h5>
+                    </div>
+                    <i class="usr bi bi-person-fill fs-0"></i>
+                </div>
+            </div>
+        </nav>
+
+        <div class="caja container-fluid">
+            <div class="row">
+                <div class="col-md-6 text-black">
+                    <div class="inicio-titulo">
+                        <h2 class="text-first">Desde 1998</h2>
+                        <h1 class="principal text-center">CREA TU CUERPO IDEAL</h1>
+                        <p class="text-des">Enfócate en tu meta. Encuentra tu comunidad. Eleva tu potencial. </p>
+                    </div>
+                    <a href="#motivos"><button id="boton" type="button" class="btn btn-warning">Leer más</button></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Catálogo-->
+    <section id="catalogo" class="services py-4">
+        <div class="container">
+            <h3 class="text-one text-center mb-4">NUESTROS PRODUCTOS</h3>
+            <h2 class="text-two text-center mb-4">CATÁLOGO</h2>
+            <div id="mostrarCatalogo2" class="row container"></div>
+        </div>
+    </section>
+    <!--Motivos-->
+    <section id="motivos" class="motivos">
+        <div class=" container-fluid ms-auto">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/circulo.jpg" class="img-mo img-fluid" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h3 class="text-ini">LO QUE NOS CARACTERIZA</h3>
+                    <h2 class="text-subtitle">¿PORQUÉ ESCOGERNOS?</h2>
+                    <div class="row py-4">
+                        <div class="col-md text-light">
+                            <i class="icono bi bi-graph-up fs-1"></i>
+                            <h4>PROGRESO</h4>
+                            <p>Establece metas claras y concisas. Progresa aumentando cargas o repeticiones
+                                gradualmente. </p>
+                        </div>
+                        <div class="col-md text-light ">
+                            <i class="icono bi bi-fork-knife fs-1"></i>
+                            <h4>NUTRICIÓN</h4>
+                            <p> Acompaña tu entrenamiento con uns alimentación balanceada guiada por un nutricionista.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row py-3">
+                        <div class="col-md text-light ">
+                            <i class="icono bi bi-universal-access fs-1"></i>
+                            <h4>WORK OUT</h4>
+                            <p>Ofrecemos gran variedad de entrenamientos para todos lo gustos.</p>
+                        </div>
+                        <div class="col-md text-light">
+                            <i class="icono bi bi-heart-pulse-fill fs-1"></i>
+                            <h4>SALUD</h4>
+                            <p>Brindamos apoyo médico para consultas o situaciones de emergencia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Galería-->
+    <section class="galeria">
+        <div class="row">
+            <div id="textoFinal" class="col-md">
+                <h1 class="txtGaleria">OFERTAS EXCLUSIVAS</h1>
+                <h5>Para nuestros más fieles clientes </h5>
+            </div>
+            <div class="col-md">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/cardio.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/masculino.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/bici.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Pie de página-->
+    <footer class="contact">
+        <nav>
+            <ul>
+                <li> <b>00(85)-684-790</b></li>
+                <li><b>León,Guanajuato</b></li>
+                <li><b>fitnase@gmail.com</b></li>
+            </ul>
+        </nav>
+        <p>© 2025 Fitnase. Todos los derechos reservados | Diseñado por Nova 4</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="JS/mostrar.js"></script>
+</body>
+
+</html>

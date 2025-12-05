@@ -1,0 +1,438 @@
+* {
+    font-family: "Figtree", sans-serif;
+}
+
+
+.usr {
+    margin-left: 10px;
+    background-color: orangered;
+    border-radius: 50%;
+    width: 30px;
+    color: white;
+    align-items: center;
+    font-size: 1.2em;
+    text-align: center;
+    justify-content: center;
+}
+
+#imgLogo {
+    border-radius: 50%;
+    width: 70px;
+    height: 50px;
+}
+
+.nav-item {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.botones {
+    padding-left: 120px;
+}
+
+.navbar-nav {
+    padding-left: 300px;
+}
+
+.usuario {
+    padding-left: 80px;
+}
+
+
+.menu {
+    background: none;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+#boton {
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    border-color: orangered;
+}
+
+#boton:hover {
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    border-color: orange;
+}
+
+#boton2 {
+    border-radius: 5px;
+    border-color: orangered;
+    color: orangered;
+}
+
+#boton2:hover {
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    border-color: orange;
+}
+
+header {
+    background-image: url('../images/fondo.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+
+}
+
+.txtGaleria {
+    color: orangered;
+    font-size: 1em;
+}
+
+
+
+.caja {
+    color: white;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+.text-first {
+    font-size: 2em;
+    font-weight: bolder;
+    margin-top: 20px;
+    color: rgb(228, 71, 14);
+}
+
+#imgcat {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.principal {
+    color: white;
+    font-size: 5em;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+
+
+.text-des {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+#cat {
+    margin: 20px;
+    background-color: black;
+    border-radius: 10px;
+    border-color: orangered;
+}
+
+.card {
+    background-color: black;
+    color: white;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+h4 {
+    color: orangered;
+    font-weight: bolder;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.more {
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    font-size: 1em;
+    margin: 30px;
+    text-decoration: none;
+}
+
+
+
+
+.motivos {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.services {
+    background-color: rgb(11, 11, 11);
+    color: white;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.text-ini {
+    font-size: 1em;
+    color: orangered;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.text-subtitle {
+    font-size: 3em;
+    text-align: left;
+    font-weight: bolder;
+    margin-left: 70px;
+}
+
+.column {
+    margin: 20px;
+    vertical-align: right;
+}
+
+.icono {
+    background-color: rgb(106, 103, 103);
+    color: rgba(227, 69, 21, 0.902);
+    border-radius: 5%;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    line-height: 80px;
+    margin-bottom: 10px;
+}
+
+
+.text-one {
+    color: orangered;
+    font-size: 1em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.text-two {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.border {
+    border: 2px solid rgb(208, 175, 161);
+    border-radius: 10px;
+    height: 380px;
+    width: auto;
+    padding: 5px;
+    margin: 15px;
+}
+
+.img-mo {
+    width: 600px;
+    height: 600px;
+    border-radius: 60%;
+    border-color: orangered;
+    border-style: groove;
+    margin: 20px;
+    text-align: left;
+}
+
+.text {
+    font-size: 2em;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: orangered;
+}
+
+
+.galeria {
+    background-color: rgb(11, 11, 11);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.galeria img {
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.txtGaleria {
+    color: orangered;
+    font-weight: bolder;
+}
+
+h5 {
+    color: white;
+    font-weight: bolder;
+}
+
+#textoFinal {
+    font-size: 2em;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+.contact {
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+footer ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+/*Diseño adaptativo o responsivo*/
+@media (max-width:550px) {
+     .navbar-collapse {
+        text-align: center; 
+    }
+
+    .principal {
+        font-size: 3em;
+    }
+
+    .text-des {
+        font-size: 1em;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .text-subtitle {
+        font-size: 2em;
+        margin-left: 20px;
+    }
+
+
+    .img-mo {
+        width: 300px;
+        height: 250px;
+        margin: 10px;
+    }
+
+    .galeria img {
+        width: 200px;
+        height: 300px;
+    }
+
+    .more {
+        font-size: 0.8em;
+        padding: 3px;
+        margin: 10px;
+    }
+
+    .row>.col-md {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+
+    .ser {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        flex-shrink: 0;
+        margin-right: 15px;
+        border-radius: 5px;
+    }
+
+    .col-md h4 {
+        font-size: 1.1em;
+        margin-bottom: 5px;
+    }
+
+    .col-md p {
+        display: none;
+    }
+
+    .txtGaleria {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    h5 {
+        font-size: 0.5em;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    #carouselExampleFade {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: 110px;
+    }
+
+    .contact {
+        text-align: center;
+        font-size: 0.8em;
+        justify-content: center;
+    }
+    .navbar{
+        margin-left: 0px;
+        text-align: center;
+        justify-content: center;
+
+    }
+    .usuario {
+        padding-left: 20px;
+        font-size: 0.8em;
+
+    }
+    .usr{
+        font-size: 0.8em;
+        justify-content: center;
+        text-align: center;
+        padding: 0px;
+    }
+    .navbar-nav {
+        padding-left: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #boton {
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+        margin-bottom: 12px;
+
+    }
+
+    .botones {
+        font-size: 0.8em;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-right: 100px;
+        margin-bottom: 5px;
+    }
+}
